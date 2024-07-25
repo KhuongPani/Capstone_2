@@ -1,4 +1,4 @@
-/* Add your existing styles here */
+
 
 .product-list {
   display: grid;
@@ -8,22 +8,22 @@
 }
 
 .product-item {
-  border: 1px solid #ddd; /* Optional: Adds a border around each item */
-  border-radius: 0.5rem; /* Optional: Rounds the corners of each item */
-  padding: 3rem; /* Adds padding inside each product item */
-  background-color: #fff; /* Optional: Sets a background color */
+  border: 1px solid #ddd; 
+  border-radius: 0.5rem; 
+  padding: 3rem; 
+  background-color: #fff; 
 }
 
 .product-image {
   width: 100%;
-  height: auto; /* Ensures the image scales properly */
-  border-bottom: 1px solid #ddd; /* Adds a border below the image */
-  margin-bottom: 0.5rem; /* Adds space between the image and the text */
+  height: auto; 
+  border-bottom: 1px solid #ddd; 
+  margin-bottom: 0.5rem; 
 }
 
 .product-name {
-  font-size: 1.25rem; /* Sets a larger font size for the product name */
-  margin: 0.5rem 0; /* Adds margin above and below the product name */
+  font-size: 1.25rem; 
+  margin: 0.5rem 0; 
 }
 
 .product-price {
@@ -32,16 +32,16 @@
   align-items: center;
   width: 40%;
   height: 40px;
-  color: #2a9d8f; /* Sets the color for the price text */
-  font-size: 1rem; /* Sets the font size for the price */
+  color: #2a9d8f; 
+  font-size: 1rem; 
   background-color: #ddd;
   color: black;
   border: none;
 }
 
 .product-description {
-  font-size: 0.875rem; /* Sets a smaller font size for the description */
-  color: #333; /* Sets the text color for the description */
+  font-size: 0.875rem;
+  color: #333; 
 }
 
 .box {
@@ -59,11 +59,11 @@
   color: white;
   border: none;
   cursor: pointer;
-  transition: transform 0.2s; /* Adds a smooth scaling effect */
+  transition: transform 0.2s; 
 }
 
 .buy-now-button:hover {
-  transform: scale(1.02); /* Slightly scales up the product item on hover */
+  transform: scale(1.02); 
 }
 
 

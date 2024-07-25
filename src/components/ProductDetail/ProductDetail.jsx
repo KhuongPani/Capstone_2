@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import products from './productsData'; // Assuming you have the product data in this file
+import products from './productsData'; 
 import "./ProductDetail.css";
 
 const ProductDetail = () => {
