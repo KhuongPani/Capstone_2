@@ -1,0 +1,46 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url(../../assets/image3.png);
+  background-size: cover;
+  background-repeat: no-repeat; 
+  height: auto;
+}
+
+.productImg,
+.title {
+  flex: 1;
+  margin-bottom: 100px;
+  box-sizing: border-box;
+}
+
+.productImg img {
+  width: 70%;
+  margin-left: 70px;
+}
+
+.title {
+  position: absolute;
+  right: 200px;
+}
+
+.title h1 {
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.title h3 {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.title button {
+  background-color: #f3b861;
+  padding: 15px 20px;
+  font-size: 20px;
+  border: none;
+  color: #fff;
+  margin-top: 30px;
+}

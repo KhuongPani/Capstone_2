@@ -1,0 +1,98 @@
+/* Add your existing styles here */
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 5em;
+  padding: 50px 100px;
+}
+
+.product-item {
+  border: 1px solid #ddd; /* Optional: Adds a border around each item */
+  border-radius: 0.5rem; /* Optional: Rounds the corners of each item */
+  padding: 3rem; /* Adds padding inside each product item */
+  background-color: #fff; /* Optional: Sets a background color */
+}
+
+.product-image {
+  width: 100%;
+  height: auto; /* Ensures the image scales properly */
+  border-bottom: 1px solid #ddd; /* Adds a border below the image */
+  margin-bottom: 0.5rem; /* Adds space between the image and the text */
+}
+
+.product-name {
+  font-size: 1.25rem; /* Sets a larger font size for the product name */
+  margin: 0.5rem 0; /* Adds margin above and below the product name */
+}
+
+.product-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 40px;
+  color: #2a9d8f; /* Sets the color for the price text */
+  font-size: 1rem; /* Sets the font size for the price */
+  background-color: #ddd;
+  color: black;
+  border: none;
+}
+
+.product-description {
+  font-size: 0.875rem; /* Sets a smaller font size for the description */
+  color: #333; /* Sets the text color for the description */
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.buy-now-button {
+  width: 60%;
+  height: 40px;
+  font-size: 1rem;
+  background-color: orange;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s; /* Adds a smooth scaling effect */
+}
+
+.buy-now-button:hover {
+  transform: scale(1.02); /* Slightly scales up the product item on hover */
+}
+
+
+
+/* .related-products {
+  display: flex;
+  justify-content: space-around;
+}
+
+.related-product-card {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.related-product-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.buy-now {
+  padding: 10px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+} */
+
+/* Add any additional styles as needed */
