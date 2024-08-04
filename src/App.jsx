@@ -1,52 +1,26 @@
-// import React from "react";
-// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-// import Header from "./components/Header/Header";
-// import Navbar from "./components/Navbar/Navbar";
-// import Banner from "./components/Banner/Banner";
-// import Product from "./components/Product/Product";
-// import ProductDetail from "./components/ProductDetail/ProductDetail";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from './components/Header'; 
+import Home from "./pages/Home";
+import ProductList from "./pages/ProductList";
+import ProductDetailPage from "./pages/ProductDetailPage";
+import RegisterPage from "./pages/RegisterPage";
+import "./styles/main.scss";
 
-// function App() {
-//   return (
-//     <Router>
-//       <div className='app'>
-//         <Header />
-//         <Navbar />
-//         <Banner />
-//         <Switch>
-//           <Route exact path="/" component={Product} />
-//           <Route path="/product/:id" component={ProductDetail} />
-//         </Switch>
-//       </div>
-//     </Router>
-//   );
-// }
-
-// export default App;
-
-
-
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from "./components/Header/Header";
-import Navbar from "./components/Navbar/Navbar";
-import Banner from "./components/Banner/Banner";
-import Product from './components/Product/Product';
-import ProductDetail from './components/ProductDetail/ProductDetail';
-
-function App() {
+const App = () => {
   return (
     <Router>
-        <Header path="/" element={<Header />} />
-        <Navbar />
-        <Banner />
-      <Routes>
-        <Route path="/" element={<Product />} />
-        <Route path="/product/:id" element={<ProductDetail />} />
-      </Routes>
+        <Header />
+        <main className="main-content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/products" element={<ProductList />} />
+          <Route path="/products/:id" element={<ProductDetailPage />} />
+          <Route path="/register" element={<RegisterPage />} />
+        </Routes>
+      </main>
     </Router>
   );
-}
+};
 
 export default App;
-

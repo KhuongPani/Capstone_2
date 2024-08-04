@@ -1,0 +1,19 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+@import "../components/Header";
+@import "../components/Banner";
+@import "../components/Product";
+@import "../components/ProductDetail";
+@import "../components/Register";
+
+
+// @import "../pages/home";
+// @import "../pages/product-page";
+// @import "../pages/product-detail-page";
+// @import "../pages/register-page";
+
+
+.main-content {
+    padding-top: 130px; 
+  } 
